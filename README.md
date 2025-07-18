@@ -137,4 +137,4 @@
 - 🤖 **Instagram (AI Projects):** [@snapperkush.ai](https://instagram.com/snapperkush.ai)
 - 🐙 **GitHub:** [himanshu263](https://github.com/himanshu263)
 - 🟦 **Facebook:** [@kush263](https://www.facebook.com/kush263)
-- 🐦 **Twitter/X:** [@yadav_263](https://x.com/yadav_263)
+- 🐦 **Twitter/X:** [@yadav_263](https://x.com/himanshu_263)
