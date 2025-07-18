@@ -131,10 +131,11 @@
 
 ---
 
-## 🌟 Connect with me
+## 🌐 Connect with Me
 
-<p align="left">
-<a href="https://instagram.com/snapperkush"><img src="https://img.shields.io/badge/Instagram-Personal-orange?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href="https://instagram.com/snapperkush.ai"><img src="https://img.shields.io/badge/Instagram-AI-blueviolet?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href="https://github.com/himanshu263"><img src="https://img.shields.io/badge/Github-himanshu263-black?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
+- 📧 **Email:** [write.himanshu263@gmail.com](mailto:write.himanshu263@gmail.com)
+- 📸 **Instagram (Personal):** [@snapperkush](https://instagram.com/snapperkush)
+- 🤖 **Instagram (AI Projects):** [@snapperkush.ai](https://instagram.com/snapperkush.ai)
+- 🐙 **GitHub:** [himanshu263](https://github.com/himanshu263)
+- 🟦 **Facebook:** [@kush263](https://www.facebook.com/kush263)
+- 🐦 **Twitter/X:** [@yadav_263](https://x.com/yadav_263)
