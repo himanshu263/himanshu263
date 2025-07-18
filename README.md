@@ -1,15 +1,13 @@
 
----
-
-> 🚀 *“Keep building, keep growing — consistency beats perfection.”*
->
-> <h1 align="center">Hi 👋, I'm Himanshu</h1>
+--- <h1 align="center">Hi 👋, I'm Himanshu</h1>
 <h3 align="center">💻 Backend Developer | 🛠️ Full Stack Learner | 🧠 AI Enthusiast</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&pause=1000&color=FFB300&center=true&vCenter=true&width=435&lines=Backend+Developer;Learning+React+Frontend;Building+Full-Stack+Projects;Open+Source+Contributor;AI%2C+PHP%2C+Django%2C+JS+Lover" alt="Typing animation" />
 </p>
 
+> 🚀 *“Keep building, keep growing — consistency beats perfection.”*
+>
 ---
 ### 🚀 About Me
 - 💻 **Backend Developer** with experience in **PHP**, **Python**, and now leveling up in **JavaScript**.
