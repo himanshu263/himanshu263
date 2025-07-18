@@ -6,6 +6,12 @@
 - 👀 Passionate about **Backend APIs**, **Django**, and **AI Projects**.
 - 🎯 Building side projects regularly and open to collaborations.
 
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=himanshu263&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="trophies" />
+</p>
 ---
 
 ### 💬 Let’s Connect
