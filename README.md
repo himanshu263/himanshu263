@@ -38,7 +38,6 @@
 - 🎮 **[JS Calculator](https://github.com/himanshu263/js-calculator)** — Simple modern calculator app.
 - ✅ **[To-Do List App](https://github.com/himanshu263/js-to-do-list)** — Colorful to-do app with status filters.
 - ❌ **[Tic Tac Toe Game](https://github.com/himanshu263/js-tic-tac-toe)** — Fun two-player and single-player game.
-- 📱 **[PHP School ERP](https://github.com/himanshu263/php-school-erp)** — (if applicable) Simple school management system.
 - 🎁 **[Python Voice Assistant (Jarvis)](https://github.com/himanshu263/python-jarvis)** — AI-powered voice assistant.
 - 🌐 **[Blog Website Django](https://github.com/himanshu263/django-blog)** — Django-powered blog with full CRUD.
 - 💡 **More on my GitHub Profile!** ➡️ [himanshu263](https://github.com/himanshu263)
