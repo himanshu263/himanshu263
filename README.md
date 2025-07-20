@@ -5,16 +5,8 @@
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&pause=1000&color=FFB300&center=true&vCenter=true&width=435&lines=Backend+Developer;Learning+React+Frontend;Building+Full-Stack+Projects;Open+Source+Contributor;AI%2C+PHP%2C+Django%2C+JS+Lover" alt="Typing animation" />
 </p>
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=himanshu263.himanshu263" alt="Profile Views" />
-</p>
-
----
-
 ### 🚀 *“Keep building, keep growing — consistency beats perfection.”*
-
 ---
-
 ### 🚀 About Me
 - 💻 **Backend Developer** with experience in **PHP**, **Python**, and now leveling up in **JavaScript**.
 - 🌱 Currently learning **React.js** to become a Full Stack Developer.
@@ -22,82 +14,15 @@
 - 🎯 Building side projects regularly and open to collaborations.
 
 ---
-
-### 🐍 Snake Game – Just for Fun!
-
-<div align="center">
-  <canvas id="snakeCanvas" width="400" height="400" style="border:1px solid #000;"></canvas>
-  <p>Use arrow keys to control the snake 🐍</p>
-</div>
-
-<script>
-(function() {
-  const canvas = document.getElementById("snakeCanvas");
-  const ctx = canvas.getContext("2d");
-  const grid = 20;
-  let count = 0;
-  let snake = { x: 160, y: 160, cells: [], maxCells: 4 };
-  let apple = { x: 320, y: 320 };
-  let dx = grid, dy = 0;
-
-  function getRandom(min, max) {
-    return Math.floor(Math.random() * (max - min) / grid) * grid + min;
-  }
-
-  document.addEventListener("keydown", e => {
-    if (e.key === "ArrowLeft" && dx === 0) { dx = -grid; dy = 0; }
-    if (e.key === "ArrowUp" && dy === 0) { dx = 0; dy = -grid; }
-    if (e.key === "ArrowRight" && dx === 0) { dx = grid; dy = 0; }
-    if (e.key === "ArrowDown" && dy === 0) { dx = 0; dy = grid; }
-  });
-
-  function loop() {
-    requestAnimationFrame(loop);
-    if (++count < 4) return;
-    count = 0;
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    snake.x += dx; snake.y += dy;
-
-    if (
-      snake.x < 0 || snake.x >= canvas.width ||
-      snake.y < 0 || snake.y >= canvas.height
-    ) {
-      snake.x = snake.y = 160;
-      snake.cells = [];
-      snake.maxCells = 4;
-      dx = grid; dy = 0;
-    }
-
-    snake.cells.unshift({ x: snake.x, y: snake.y });
-    if (snake.cells.length > snake.maxCells) snake.cells.pop();
-
-    ctx.fillStyle = "red";
-    ctx.fillRect(apple.x, apple.y, grid, grid);
-
-    ctx.fillStyle = "green";
-    snake.cells.forEach((cell, idx) => {
-      ctx.fillRect(cell.x, cell.y, grid - 1, grid - 1);
-      if (cell.x === apple.x && cell.y === apple.y) {
-        snake.maxCells++;
-        apple.x = getRandom(0, canvas.width);
-        apple.y = getRandom(0, canvas.height);
-      }
-      for (let j = idx + 1; j < snake.cells.length; j++) {
-        if (cell.x === snake.cells[j].x && cell.y === snake.cells[j].y) {
-          snake.x = snake.y = 160;
-          snake.cells = [];
-          snake.maxCells = 4;
-          dx = grid; dy = 0;
-        }
-      }
-    });
-  }
-
-  requestAnimationFrame(loop);
-})();
-</script>
+### 💬 Let’s Connect
+- 📸 **Instagram (Personal):** [@snapperkush](https://instagram.com/snapperkush)
+- 🤖 **Instagram (AI Projects):** [@snapperkush.ai](https://instagram.com/snapperkush.ai)
+- 🐙 **GitHub:** [himanshu263](https://github.com/himanshu263)
 
 ---
+<svg width="200" height="200" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  </svg>
 
 ### 💼 Tech Stack
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -117,29 +42,101 @@
 
 ---
 
-### 📝 Projects Showcase
-- 🎮 **[JS Calculator](https://github.com/himanshu263/js-calculator)**
-- ✅ **[To-Do List App](https://github.com/himanshu263/js-to-do-list)**
-- ❌ **[Tic Tac Toe Game](https://github.com/himanshu263/js-tic-tac-toe)**
-- 🎁 **[Python Voice Assistant](https://github.com/himanshu263/python-jarvis)**
-- 🌐 **[Blog Django](https://github.com/himanshu263/django-blog)**
+### 📝 My Projects
 
----
+- 🎮 **[JS Calculator](https://github.com/himanshu263/js-calculator)** — Simple modern calculator app.
+- ✅ **[To-Do List App](https://github.com/himanshu263/js-to-do-list)** — Colorful to-do app with status filters.
+- ❌ **[Tic Tac Toe Game](https://github.com/himanshu263/js-tic-tac-toe)** — Fun two-player and single-player game.
+- 🎁 **[Python Voice Assistant (Jarvis)](https://github.com/himanshu263/python-jarvis)** — AI-powered voice assistant.
+- 🌐 **[Blog Website Django](https://github.com/himanshu263/django-blog)** — Django-powered blog with full CRUD.
+- 💡 **More on my GitHub Profile!** ➡️ [himanshu263](https://github.com/himanshu263)
 
-### 🏆 GitHub Trophies
+
+
+## 🏆 GitHub Trophies
+
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=himanshu263&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
 </p>
 
 ---
 
-### 💬 Connect with Me
-- 📧 **Email:** [write.himanshu263@gmail.com](mailto:write.himanshu263@gmail.com)
-- 🐙 **GitHub:** [himanshu263](https://github.com/himanshu263)
-- 📸 **Instagram (Personal):** [@snapperkush](https://instagram.com/snapperkush)
-- 🤖 **Instagram (AI Projects):** [@snapperkush.ai](https://instagram.com/snapperkush.ai)
-- 🐦 **Twitter/X:** [@yadav_263](https://x.com/himanshu_263)
+## 🕸️ Web Development
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
 ---
 
-*Built with ❤️ by Himanshu | Powered by Code & Curiosity*
+## 🍧 Design Tools
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=white)
+
+---
+
+## ⚙️ Backend Development
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+## 📅 Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+---
+
+## 🛠️ Developer Tools
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+---
+
+## 📄 Code Editors & IDEs
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Sublime Text](https://img.shields.io/badge/Sublime%20Text-FF9800?style=for-the-badge&logo=sublime-text&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
+
+---
+
+## 🌐 Browsers
+![Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
+![Brave](https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=brave&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)
+![Edge](https://img.shields.io/badge/Microsoft%20Edge-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white)
+
+---
+
+## ⭕ Operating Systems
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+---
+
+## ☃️ Learning Resources
+![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
+![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)
+![YouTube](https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=green)
+![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white)
+![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white)
+![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)
+![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=Google&logoColor=white)
+
+---
+
+## 🌐 Connect with Me
+
+- 📧 **Email:** [write.himanshu263@gmail.com](mailto:write.himanshu263@gmail.com)
+- 📸 **Instagram (Personal):** [@snapperkush](https://instagram.com/snapperkush)
+- 🤖 **Instagram (AI Projects):** [@snapperkush.ai](https://instagram.com/snapperkush.ai)
+- 🐙 **GitHub:** [himanshu263](https://github.com/himanshu263)
+- 🟦 **Facebook:** [@kush263](https://www.facebook.com/kush263)
+- 🐦 **Twitter/X:** [@yadav_263](https://x.com/himanshu_263)
