@@ -7,6 +7,12 @@
 
 ### 🚀 *“Keep building, keep growing — consistency beats perfection.”*
 ---
+---
+## 🔗 View My Profile Website
+
+👉 [View Live Resume](https://himanshu263.github.io/resume/)
+
+---
 ### 🚀 About Me
 - 💻 **Backend Developer** with experience in **PHP**, **Python**, and now leveling up in **JavaScript**.
 - 🌱 Currently learning **React.js** to become a Full Stack Developer.
